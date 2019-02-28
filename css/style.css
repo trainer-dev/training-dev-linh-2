@@ -1,0 +1,396 @@
+*{
+    max-width: 1500px;
+    margin: auto;
+}
+input[type=button] {
+    width: 20%;
+    background-color: rgba(255,255,255,0);
+    color: #f89601;
+    padding: 10px 0px;
+    border: 3px solid #f89601;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px
+}
+.header{
+    background-color: white;
+}
+.top {
+    padding: 0 10%;
+    background-color: #0f75bd;
+    color: #5fb1fb;
+
+}
+.top ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+.top ul li{
+    float: left;
+    font-size: 12px;
+}
+.ic-1{
+    margin: 0;
+}
+.top ul li a{
+    display: block;
+    padding: 0 8px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+.top ul#top-right{
+    float:right;
+    list-style-type: none;
+    overflow: hidden;
+}
+.top ul#top-right li{
+    font-size: 12px;
+    padding: 0 5px;
+}
+.top ul#top-right li p{
+    margin-top: 3px;
+}
+.top ul#top-right li#co {
+    padding:0 40px;
+    margin-top: 4px;
+}
+.ic-2 {
+    margin-top: 2px;
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 10%
+}
+ul.menu li.logo1{
+    float: left;
+    display: inline;
+    padding: 15px 0;
+}
+ul.menu li{
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+    padding: 45px 10px;
+}
+.banner {
+    background-image: url("../images/background1.png");
+    width: 100%;
+    height: 388px;
+}
+.banner-box{
+    width: 80%;
+    margin:auto;
+    padding: 35px 0;
+    position: relative;
+}
+.banner-box img{
+    width: 100%;
+    height: 320px;
+    border: 5px solid #0f75bd;
+    box-shadow: 1px 1px 5px 5px #0c619a;
+}
+.banner-button {
+    width: 95px;
+    height: 30px;
+    float: right;
+    border: 1px solid #000;
+    margin: 10px 9.5%;
+}
+.banner-text {
+    width: 420px ;
+    height: 115px;
+    background-color: #e58a08;
+    opacity: 0.9;
+    float: left;
+    margin: -220px 5px;
+}
+.banner-text h3 {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 30px 8px;
+}
+.intro{
+    width: 100%;
+    padding: 0 10%;
+    margin: 50px 0;
+}
+.intro ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:0;
+}
+.intro ul li#intro-text{
+    width: 35%;
+    float: left;
+    font-size: 12px;
+}
+hr.spec{
+    border: 3px solid #f89503;
+    width: 80px;
+    float: left;
+}
+.intro p{
+    font-size: 16px;
+}
+ul#logo {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+ul #logo li{
+    float: left;
+    display: inline;
+}
+ul #logo li img{
+    width: 100px;
+}
+
+li#intro-img{
+    width: 40%;
+    height: 300px;
+    float: right;
+    margin: -40px 5%;
+}
+
+.plan{
+    width: 100%;
+    height: 330px;
+    background-color: #f99503;
+    display: block;
+}
+.picture {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    width: 65%;
+}
+.picture li{
+    float: right;
+    display: inline;
+    color: white;
+    margin-left: -40%;
+}
+.picture img{
+    width: 600px;
+    height: 330px;
+    z-index: auto;
+    position: relative;
+}
+#sub-pic {
+    position: absolute;
+    color: white;
+    width: 30%;
+    margin-top: -12%;
+    margin-left: 70px;
+    line-height: 25px;
+}
+.sub-pic {
+    position: absolute;
+    color: white;
+    width: 15%;
+    margin-left: 27%;
+    margin-top: -12%;
+}
+.sub-pic a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo-2 {
+    height: 280px;
+    margin-left:10%;
+    margin-top: 25px;
+    float: left;
+    background-color: white;
+    width: 18%;
+}
+.logo-2 p{
+    font-size: 42px;
+    margin-top: 80px;
+    margin-left: 15px;
+    line-height: 55px;
+}
+.media {
+    width: 100%;
+    padding: 0 10%;
+}
+.news{
+    width: 38%;
+    float: left;
+    padding: 50px 0;
+}
+.video{
+    width: 35%;
+    height: 500px;
+    padding: 50px 0;
+    margin-left: 45%;
+}
+.news-detail {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.news-detail h5{
+    color: #333333;
+}
+.news-detail ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:0;
+}
+.news-detail ul li{
+    float: left;
+    display: inline;
+    width: 30%;
+}
+.news-detail ul li.text{
+    float: left;
+    width: 60%;
+}
+.news-detail img{
+    width: 125px;
+    height: 95px;
+}
+.news-detail p{
+    width: 310px;
+    color: #b7b7b7;
+}
+#ic-3 {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:0;
+    color: #b7b7b7;
+}
+#ic-3 li{
+    float: left;
+    display: inline;
+    width: 10%;
+}
+#ic-3 img {
+    width: 22px;
+    height: 25px;
+    margin-top: -3px;
+}
+#ic-3 p{
+    font-size: 10px;
+    margin-top:5px
+}
+
+#ic-4 {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:0;
+    color: #b7b7b7;
+}
+#ic-4 li{
+    float: left;
+    display: inline;
+    width: 10%;
+}
+#ic-4 img {
+    width: 22px;
+    height: 25px;
+    margin-top: -3px;
+}
+#ic-4 p{
+    font-size: 10px;
+    margin-top:5px
+}
+
+#ic-5 {
+    color: #b7b7b7;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:0;
+}
+#ic-5 li{
+    float: left;
+    display: inline;
+    width: 10%;
+}
+#ic-5 img {
+    width: 22px;
+    height: 25px;
+    margin-top: -3px;
+}
+#ic-5 p{
+    font-size: 10px;
+    margin-top:5px
+}
+
+.video video{
+    width: 100%;
+    padding: 15% 0;
+
+}
+
+.big-logo {
+    width: 100%;
+    padding: 0 6%;
+}
+.big-logo ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:0;
+}
+.big-logo ul li{
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+.footer {
+    width: 100%;
+    background-color: #0f75bd;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+#left {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding:20px 0 20px 7%;
+    line-height: 35px;
+    width: 40%;
+}
+#left li{
+    float: left;
+    display: inline;
+    padding: 0px;
+}
+#ic-6 {
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+    padding:0;
+}
+#ic-6 li{
+    float: left;
+    display: inline;
+}
+#ic-6 img{
+    margin-top: 10px;
+}
+
+#right {
+    float: right;
+    padding: 0 10%;
+    margin-top: -14%
+}
+#right img{
+    height: 200px;
+}
